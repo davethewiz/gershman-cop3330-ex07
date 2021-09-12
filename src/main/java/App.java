@@ -21,7 +21,7 @@ public class App
         String lengthStr = GetInput("What is the length of the room in feet? ");
         int length = Integer.parseInt(lengthStr);
 
-        String widthStr = GetInput("What is the width of the room in feet?  ");
+        String widthStr = GetInput("What is the width of the room in feet? ");
         int width = Integer.parseInt(widthStr);
 
         System.out.println("You entered dimensions of " + length + " feet by " + width + " feet.");
